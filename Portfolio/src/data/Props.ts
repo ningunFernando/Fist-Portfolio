@@ -19,4 +19,11 @@ export type SocialLinks ={
     link: string
 }
 
+export type ProyectsData ={
+    img: string,
+    name: string,
+    info: string,
+    link: string
+}
+
 

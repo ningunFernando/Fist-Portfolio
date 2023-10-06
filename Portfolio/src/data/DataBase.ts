@@ -1,4 +1,4 @@
-import { Tech, Programs, SocialLinks} from "./props";
+import { Tech, Programs, SocialLinks, ProyectsData} from "./props";
 
 export const Technologies : Array<Tech> = [
 
@@ -63,5 +63,26 @@ export const Socials : Array<SocialLinks> = [
         img:"https://static.itch.io/images/itchio-textless-black.svg",
         name:"Itch.io",
         link:"https://ningunfernando.itch.io/"
+    },
+]
+
+export const Proyects :Array<ProyectsData> = [
+    {
+        img: "../../public/engrane.png",
+        name: "Renta de maquinaria engrane",
+        info: "pagina",
+        link: "http://engrane-renta-de-maquinaria.com/#motto"
+    },
+    {
+        img: "../../public/engrane.png",
+        name: "Kuchen Construcciones",
+        info: "pagina",
+        link: "http://www.kuchenconstrucciones.com/#services"
+    },
+    {
+        img: "../../public/engrane.png",
+        name: "Ganas bienes y raices",
+        info: "pagina",
+        link: "https://ganasbienesraices.com/"
     },
 ]

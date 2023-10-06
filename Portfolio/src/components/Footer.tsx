@@ -6,7 +6,9 @@ import "../NavResponsive.css"
 const Footer = () => {
   return (
     <div className="Footer-container">
+        <div>
 
+        </div>
         <div className="socials-links">
             
         <div className='Footer'>

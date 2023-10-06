@@ -1,9 +1,28 @@
-import React from 'react'
+
+import { Proyects } from "../data/DataBase"
+import uniqid from 'uniqid'
 
 const ProyectsPage = () => {
   return (
-    <div className='bg-teal-200 m-3'>
-      <h1>ProyectsPage</h1>
+    <div className=''>
+      {Proyects.map(item => {
+        return (
+          <div className='flex flex-row space-x-96 even:flex-row-reverse  even:space-x-reverse place-content-center mb-24' key={uniqid()}>
+          <div>
+            <img className="w-60 h-40" src={item.img} alt="" />
+          </div>              
+
+          <div>
+            <p>{item.name}</p>
+            <p>{item.info}</p>
+            <a href={item.link}>Ver</a>
+          </div>
+          
+      </div>
+        )
+      })
+
+      }
     </div>
   )
 }
