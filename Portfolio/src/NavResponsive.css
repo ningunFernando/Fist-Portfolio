@@ -1,0 +1,30 @@
+.nav{
+    background: rgba( 255, 255, 255, 0.15 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 3px );
+}
+
+.Footer{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    background: #3e5157;
+    height: 20vh;
+    margin-top: 10%;
+    gap: 40px;
+}
+
+.Footer .socials-card a{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40%;
+    width: 5vw;
+    height: 15vh;
+    justify-content: center;
+}
+
+.Footer .socials-card img{
+    width: 3rem;
+    height: 3rem;
+}
+    

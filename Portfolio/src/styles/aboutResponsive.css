@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.about-container{
+    align-items: center;
+    display: flex;
+    margin-top: 8%;
+    flex-direction: column;
+}
+.about-me-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-bottom: 80px;
+}
+
+.text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-self: auto;
+    width: 40%;
+    padding: 20px;
+}
+
+.title{
+    font-size: 90px;
+    margin-bottom: 40px;
+}
+
+.my-photo{
+    width: 20vw;
+    height: 50vh;
+    background-color: #91ffff;
+}
+
+.lengs-container{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lens-formater{
+    display: flex;
+    width: 70%;
+}
+
+.lengs-container img{
+    width: 100px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: hsl(180, 100%, 83%);
+    width: 150px;
+    height: 200px;
+    margin-bottom: 100px;
+}
+
+.card img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    h2{
+        margin-left: 100px;
+    }
+    .about-me-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-container{
+
+        width: 100%;
+    }
+    
+    .title{
+        font-size: 80px;
+    }
+    
+    .my-photo{
+        width: 95vw;
+        height: 70vh;
+    }
+
+    .lengs-container{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .lens-formater{
+        display: flex;
+        width: 90%;
+    }
+    
+    .lengs-container img{
+        width: 100px;
+    }
+    .card{
+        margin-left: 100px;
+        width: 250px;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+    
+    .card img{
+
+        width: 80%;
+    }
+     
+}
