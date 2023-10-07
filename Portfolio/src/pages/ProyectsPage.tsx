@@ -3,7 +3,7 @@ import {uniqid} from 'uniqid'
 
 const ProyectsPage = () => {
   return (
-    <div className=''>
+    <div>
       <h1 className="font-title text-6xl">Mis Proyectos</h1>
       {Proyects.map(item => {
         return (
