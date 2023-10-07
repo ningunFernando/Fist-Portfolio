@@ -18,8 +18,6 @@ const AboutPage = () => {
         tiempo de aprendizaje</p>
         <Link to="/proyects" className='contact-btn font-body  text-xl text-white bg-black w-44 p-4 text-center'> Ve mi trabajo</Link>
         </div>
-        <div className='my-photo bg-slate-500'>
-      </div>
 
       </div>
 

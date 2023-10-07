@@ -70,19 +70,19 @@ export const Proyects :Array<ProyectsData> = [
     {
         img: "../../public/engrane.png",
         name: "Renta de maquinaria engrane",
-        info: "pagina",
+        info: "Pagina de catalogo hecha para una empresa de rernta de maquinaria para obra",
         link: "http://engrane-renta-de-maquinaria.com/#motto"
     },
     {
         img: "../../public/kuchen.png",
         name: "Kuchen Construcciones",
-        info: "pagina",
+        info: "Pagina de portafolio para una construcctora enfocada en desarrollo residencial en Puerto vallarta",
         link: "http://www.kuchenconstrucciones.com/#services"
     },
     {
         img: "../../public/ganas.png",
         name: "Ganas bienes y raices",
-        info: "pagina",
+        info: "Pagina de portafolio para una inmobiliaria ubicada en bahia de banderas",
         link: "https://ganasbienesraices.com/"
     },
 ]

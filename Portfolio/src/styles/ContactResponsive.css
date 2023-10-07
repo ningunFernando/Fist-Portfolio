@@ -1,0 +1,21 @@
+.form-container{
+    
+}
+
+.form{
+    justify-content: center;
+}
+
+.form input{
+    border: black solid 2px ;
+    padding: 10px;
+}
+
+.form textarea{
+    border: black solid 2px ;
+    padding:  10px; 
+}
+
+.form button{
+    margin-bottom: 30px;
+}

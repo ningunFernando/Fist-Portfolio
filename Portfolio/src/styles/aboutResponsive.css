@@ -66,6 +66,8 @@
     width: 150px;
     height: 200px;
     margin-bottom: 100px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black ;
 }
 
 .card img{
@@ -120,12 +122,13 @@
     .card{
         margin-left: 0px;
         width: 250px;
-        height: 400px;
-        margin-bottom: 50px;
+        height: 200px;  
     }
     
     .card img{
-        width: 80%;
+        width: 50%;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
      
 }

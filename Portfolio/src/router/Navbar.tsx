@@ -12,7 +12,7 @@ const NavBar = () => {
   const links : Array<NavRoutes>= [ 
     {name: "Home", route: "/home"},
     {name: "Sobre mi", route: "/about"},
-    {name: "Proyectos", route: "/proyects"},
+    {name: "Proyectos", route: "/proyects "},
     {name: "Contacto", route: "/contact"},
   ]
 
@@ -60,9 +60,9 @@ const NavBar = () => {
 
       </div>
       </Link>
-
-      <div className=' bg-black text-5xl mt-6 mr-10 z-20 md:hidden h-12 w-12' onClick={ onClickEvent }>
-        <img src={open ? "" : ""} className='invert ' />
+      
+      <div className=' text-3xl mt-8 mr-2 z-20 md:hidden h-12 w-12' onClick={ onClickEvent }>
+        {open ? <p>&#10006;</p> : <p>&#9776;</p>}
       </div>
 
       <div className='h-26 md:flex hidden justify-end md:w-1/2'>
@@ -76,7 +76,7 @@ const NavBar = () => {
       </div>
 
       {/* Celulares */}
-      <div className={` phone-nav bg-gray-100 md:hidde gap-20 pl-10 fixed h-screen w-screen top-0 z-100 flex flex-col items-start justify-center duration-700 ${open ? "left-0" : 'left-[-100%]'}`}>
+      <div className={` phone-nav bg-gray-100 md:hidde gap-20 pl-10 fixed h-screen w-screen top-0 z-100 flex flex-col items-start justify-center duration-700 ${open ? "left-0" : 'left-[-110%]'}`}>
       {links.map(item => {
           return (
           <Link to={item.route} className='custom-btn button' key={uniqid()} onClick={onClickEvent}>
