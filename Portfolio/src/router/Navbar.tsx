@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import uniqid from "uniqid"
-import { NavRoutes } from '../data/props';
+import { NavRoutes } from './../data/Props';
 import "../NavResponsive.css"
 
 const NavBar = () => {

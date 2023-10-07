@@ -1,4 +1,3 @@
-import React from 'react'
 import "../styles/SpinningStyle.css"
 
 const SpinningText = ({text}) => {
@@ -8,7 +7,7 @@ const SpinningText = ({text}) => {
     
   return (
     <div className=' xs:hidden spinning-text-wrapper mr-32 mt-32'>
-      <div className='spinngin-text'><p>{text.split("").map((letra, i)=>(
+      <div className='spinngin-text'><p>{text.split("").map((letra:string, i:number)=>(
             
         <span className='origin-center rotate-45' key={i} 
         

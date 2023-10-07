@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "../styles/aboutResponsive.css"
 import { Link } from 'react-router-dom'
 import uniqid from 'uniqid'

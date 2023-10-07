@@ -1,5 +1,5 @@
 import { Proyects } from "../data/DataBase"
-import uniqid from 'uniqid'
+import {uniqid} from 'uniqid'
 
 const ProyectsPage = () => {
   return (

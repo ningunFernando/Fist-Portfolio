@@ -1,4 +1,4 @@
-import React from 'react'
+
 import SpinningText from '../components/SpinningText'
 import { Link } from 'react-router-dom'
 import "../styles/HomeResponsive.css"
