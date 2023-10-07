@@ -16,7 +16,7 @@ const AboutPage = () => {
         instituto universitario amerike, desde hace 1 año me dedico a la venta y diseño de sitios web asi como fotografia 
         freelance lo cual me ha llevado a aprender bastantes tecnologias y habilidades que me han ayudado bastante en este 
         tiempo de aprendizaje</p>
-        <Link to="/proyects" className='contact-btn font-body  text-xl text-white bg-black w-44 p-4 text-center'> Ve mi trabajo</Link>
+        <Link to="/proyects" className='general-btn font-body  text-xl text-white bg-black w-44 p-4 text-center'> Ve mi trabajo</Link>
         </div>
 
       </div>

@@ -13,7 +13,9 @@ const NavBar = () => {
     {name: "Home", route: "/home"},
     {name: "Sobre mi", route: "/about"},
     {name: "Proyectos", route: "/proyects "},
+    {name: "Piano", route: "/piano"},
     {name: "Contacto", route: "/contact"},
+
   ]
 
   window.addEventListener("resize", () => {
@@ -47,7 +49,7 @@ const NavBar = () => {
 
   return (
     <>
-    <nav className='nav font-body flex flex-row space gap-4 text-2xl place-content-between border  
+    <nav className='nav font-body flex flex-row space gap-6 text-2xl place-content-between border  
     border-b-black sticky top-0 z-20'>
 
       <Link to={"/home"} className='h-full w-20 static flex items-center ml-10 flex flex-row-reverse justify-start'>
@@ -65,7 +67,7 @@ const NavBar = () => {
         {open ? <p>&#10006;</p> : <p>&#9776;</p>}
       </div>
 
-      <div className='h-26 md:flex hidden justify-end md:w-1/2'>
+      <div className='h-26 md:flex hidden gap-6 justify-end md:w-1/2'>
       {links.map(item => {
           return (
           <Link to={item.route} className='p-9 font-body last:bg-black last:text-white' key={uniqid()}>

@@ -71,13 +71,13 @@ export const Proyects :Array<ProyectsData> = [
         img: "../../public/engrane.png",
         name: "Renta de maquinaria engrane",
         info: "Pagina de catalogo hecha para una empresa de rernta de maquinaria para obra",
-        link: "http://engrane-renta-de-maquinaria.com/#motto"
+        link: "https://idyllic-duckanoo-5ab45d.netlify.app/"
     },
     {
         img: "../../public/kuchen.png",
         name: "Kuchen Construcciones",
         info: "Pagina de portafolio para una construcctora enfocada en desarrollo residencial en Puerto vallarta",
-        link: "http://www.kuchenconstrucciones.com/#services"
+        link: "https://starlit-bienenstitch-c029bd.netlify.app/"
     },
     {
         img: "../../public/ganas.png",

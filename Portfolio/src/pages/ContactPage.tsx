@@ -11,7 +11,7 @@ const ContactPage = () => {
             <input className="my-6" type="email" name="email"  placeholder="Correo" required/>
             <input className="my-6" type="hidden" name="_autoresponse" value="Su mensaje Fue Recibido 👉👈"></input>
             <textarea className="my-6" name="Message" cols={10} rows={0} id="" placeholder="mensaje"></textarea>
-            <button className="my-6 font-body  text-2xl text-white bg-black w-44 p-4 text-center" type="submit">Enviar</button>
+            <button className=" general-btn my-6 font-body  text-2xl text-white bg-black w-44 p-4 text-center" type="submit">Enviar</button>
           </form>
 
         </div>

@@ -17,7 +17,7 @@ const ProyectsPage = () => {
           <div className="info">
             <h2 className="page-name">{item.name}</h2>
             <p>{item.info}</p>
-            <a className="font-body text-white bg-black w-44 p-4 text-center"href={item.link}>Ver </a>
+            <a className=" general-btn font-body text-white bg-black w-44 p-4 text-center"href={item.link}>Ver Mas </a>
           </div>
           
       </div>
