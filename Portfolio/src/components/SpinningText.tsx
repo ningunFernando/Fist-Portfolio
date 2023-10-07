@@ -7,13 +7,13 @@ const SpinningText = ({text}) => {
     console.log(deg)
     
   return (
-    <div className='spinning-text-wrapper mr-32 mt-32'>
+    <div className=' xs:hidden spinning-text-wrapper mr-32 mt-32'>
       <div className='spinngin-text'><p>{text.split("").map((letra, i)=>(
             
         <span className='origin-center rotate-45' key={i} 
         
         style={{
-            transform: "rotate(${deg * i}deg)",
+            transform: `rotate(${deg * i}deg)`,
         }}>
             {letra}
         </span>

@@ -74,13 +74,13 @@ export const Proyects :Array<ProyectsData> = [
         link: "http://engrane-renta-de-maquinaria.com/#motto"
     },
     {
-        img: "../../public/engrane.png",
+        img: "../../public/kuchen.png",
         name: "Kuchen Construcciones",
         info: "pagina",
         link: "http://www.kuchenconstrucciones.com/#services"
     },
     {
-        img: "../../public/engrane.png",
+        img: "../../public/ganas.png",
         name: "Ganas bienes y raices",
         info: "pagina",
         link: "https://ganasbienesraices.com/"

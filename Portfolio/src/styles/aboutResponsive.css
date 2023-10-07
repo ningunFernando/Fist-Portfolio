@@ -44,6 +44,11 @@
     justify-content: space-between;
 }
 
+.card-text{
+    margin-top: 0px;
+    font-size: 25px;
+}
+
 .lens-formater{
     display: flex;
     width: 70%;
@@ -51,13 +56,13 @@
 
 .lengs-container img{
     width: 100px;
+    height: 110px;
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    background-color: hsl(180, 100%, 83%);
     width: 150px;
     height: 200px;
     margin-bottom: 100px;
@@ -85,11 +90,15 @@
     }
     
     .title{
-        font-size: 80px;
+        margin-left: -15px;
+    }
+    
+    .section-title{
+        margin-left: 0px;
     }
     
     .my-photo{
-        width: 95vw;
+        width: 80vw;
         height: 70vh;
     }
 
@@ -109,14 +118,13 @@
         width: 100px;
     }
     .card{
-        margin-left: 100px;
+        margin-left: 0px;
         width: 250px;
         height: 400px;
         margin-bottom: 50px;
     }
     
     .card img{
-
         width: 80%;
     }
      

@@ -17,7 +17,7 @@ const HomePage = () => {
         <Link to={"contact"} className=' contact-btn font-body  text-2xl text-white bg-black w-44 p-4 text-center'>Contactame</Link>
         </div>
         <div className='z-0'>
-          <SpinningText text='qwertyuiopasdfghj'/>
+          <SpinningText text='- Programador - Fotografo - Estudiante '/>
         </div>
       
       
